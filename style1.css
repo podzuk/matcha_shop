@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: white;
+  background-image: url(img/header_bg.png);
+}
+
+.header__content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__menu {
+  width: 90%;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__right {
+  width: 20%;
+}
+
+.header__logo {
+  width: 90%;
+  height: 70%;
+}
+
+.header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+}
+
+.header__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.header__menu_mobi {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.header__menu_items {
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
+.header__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.header__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__center {
+    display: none;
+  }
+  .header__right {
+    width: 50%;
+  }
+  .header__logo {
+    width: 50%;
+    height: 70%;
+  }
+  .header__left {
+    width: 50%;
+  }
+  .header__menu_mobi {
+    display: block;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header__menu_items {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__right {
+    width: 40%;
+  }
+  .header__left {
+    width: 60%;
+  }
+  .header__logo {
+    width: 90%;
+    height: 70%;
+  }
+  .header__menu_items {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+}
+/*# sourceMappingURL=style1.css.map */

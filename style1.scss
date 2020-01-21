@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+@mixin background {
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  
+  @mixin content {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.header {
+    @include background;
+    background-color: white;
+    background-image: url(img/header_bg.png);
+    &__content {
+      @include content;
+    }
+    &__menu{
+        width: 90%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__right{
+        width: 20%;
+    }
+    &__logo{
+        width: 90%;
+        height: 70%;
+    }
+    &__left{
+        display: flex;
+        width: 30%;
+    }
+    &__center{
+        display: flex;
+        width: 50%;
+    }
+    &__menu_mobi{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+    &__menu_items{
+        margin-right: 7%;
+        margin-left: 7%;
+    }
+    &__button{
+        display: flex;
+        width: 50%;
+    }
+    &__phone{
+        display: flex;
+        width: 50%;
+    }
+    @media screen and(max-width: 1000px){
+        &__center{
+            display: none;
+        }
+        &__right{
+            width: 50%;
+        }
+        &__logo{
+            width: 50%;
+            height: 70%;
+        }
+        &__left{
+            width: 50%;
+        }
+        &__menu_mobi{
+           display: block;
+           width: 90%;
+           display: flex;
+           justify-content: center;
+           margin-left: auto;
+           margin-right: auto;
+        }
+        &__menu_items{
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+    }
+    @media screen and(max-width: 500px){
+        &__right{
+            width: 40%;
+        }
+        &__left{
+            width: 60%;
+        }
+        &__logo{
+            width: 90%;
+            height: 70%;
+        }
+        &__menu_items{
+            margin-right: 2%;
+            margin-left: 2%;
+        }
+    }
+}
+
+  
