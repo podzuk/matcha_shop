@@ -37,9 +37,9 @@ Vue.component("footer_main",{
         <div class="footer__bottom align-items-center justify-content-center">
             Ми в соціальних мережах</br>
             <div class="footer__networks">
-                <a href="https://www.facebook.com" target="new"><img class="footer__networks_items footer__networks_items--facebook" src="images/facebook.png" alt=""></a>
-                <a href="https://www.twitter.com" target="new"><img class="footer__networks_items" src="images/twitter (2) 2.png" alt=""></a>
-                <a href="https://www.instagram.com" target="new"><img class="footer__networks_items" src="images/instagram.png" alt=""></a>
+                <a href="https://www.facebook.com" target="new"><img class="footer__networks_items footer__networks_items--facebook" src="images/fac.png" alt=""></a>
+                <a href="https://www.twitter.com" target="new"><img class="footer__networks_items" src="images/twiter.png" alt=""></a>
+                <a href="https://www.instagram.com" target="new"><img class="footer__networks_items" src="images/instag.png" alt=""></a>
             </div>
             </div>
     </div>

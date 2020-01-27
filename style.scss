@@ -40,6 +40,7 @@
         flex-direction: row;
         max-width: 1644px;
         width: 90%;
+        height: 650px;
     }
     &__foto_left{
         width: 50%;
@@ -341,6 +342,7 @@
       max-width: 1644px;
       padding-top: 3vw;
       padding-bottom:  3vw;
+    
     }
     &__title{
         display: flex;
@@ -348,7 +350,7 @@
         font-family: 'Merriweather Sans', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 26px;
+        font-size: 23px;
         padding-left: 30px;
         line-height: 160%;
         color: #000000;    
@@ -361,6 +363,7 @@
         font-size: 36px;
         line-height: 45px;
         color: #333333;
+        
     }
     &__img{
         overflow: hidden;
@@ -456,16 +459,18 @@
     margin-left: auto;
     margin-right: auto;
     }
+    &__center{
+        width: 100%;
+        text-align: center;
+    }
     &__button{
         background-color: #5CFF80;
         border: 2px solid #50663E;
         border-radius: 20px;
         width: 200px;
         height: 50px;
-        margin-top: 7vw;
+        margin-top: 5vw;
         color: white;
-        margin-left: auto;
-        margin-right: auto;
     }
     &__button:hover{
         font-family: 'Merriweather Sans', sans-serif;
@@ -522,7 +527,7 @@
         font-family: 'Merriweather Sans', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 26px;
+        font-size: 20px;
         margin-bottom: 3vw; 
         margin-top: 3vw;
         color: #000000;
@@ -759,15 +764,13 @@ a:hover{
         color: #FFF5F5;
     }
     &__networks_items{
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
         margin-top: 20px;
         margin-left: 30px;
         margin-right: 30px;
     }
-    &__networks_items--facebook{
-        width: 100px;
-    }
+
     @media screen and(max-width: 1000px){
         &__networks_items{
             width: 40px;

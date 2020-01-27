@@ -51,6 +51,7 @@
           flex-direction: row;
   max-width: 1644px;
   width: 90%;
+  height: 650px;
 }
 
 .header__foto_left {
@@ -433,7 +434,7 @@
   font-family: 'Merriweather Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 23px;
   padding-left: 30px;
   line-height: 160%;
   color: #000000;
@@ -562,16 +563,19 @@
   margin-right: auto;
 }
 
+.block3__center {
+  width: 100%;
+  text-align: center;
+}
+
 .block3__button {
   background-color: #5CFF80;
   border: 2px solid #50663E;
   border-radius: 20px;
   width: 200px;
   height: 50px;
-  margin-top: 7vw;
+  margin-top: 5vw;
   color: white;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .block3__button:hover {
@@ -643,7 +647,7 @@
   font-family: 'Merriweather Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 20px;
   margin-bottom: 3vw;
   margin-top: 3vw;
   color: #000000;
@@ -937,15 +941,11 @@ a:hover {
 }
 
 .footer__networks_items {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
-}
-
-.footer__networks_items--facebook {
-  width: 100px;
 }
 
 @media screen and (max-width: 1000px) {
